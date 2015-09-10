@@ -11,4 +11,4 @@ Open the project in Xcode and build. Carthage dependencies have been included.
 
 ## Run it
 
-Just run the generated binary, or download and run from Releases. A download directory must be selected before proceeding.
+Just run the generated binary, or download and run from [Releases](https://github.com/rjsamson/ElixirSipsRss/releases). A download directory must be selected before proceeding.
