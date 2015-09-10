@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775770801B98A164005FEA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757707F1B98A164005FEA09 /* AppDelegate.swift */; };
+		775770821B98A164005FEA09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775770811B98A164005FEA09 /* ViewController.swift */; };
+		775770841B98A164005FEA09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775770831B98A164005FEA09 /* Images.xcassets */; };
+		775770871B98A164005FEA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775770851B98A164005FEA09 /* Main.storyboard */; };
+		775770931B98A164005FEA09 /* ElixirSipsRssTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775770921B98A164005FEA09 /* ElixirSipsRssTests.swift */; };
+		7757709F1B98A215005FEA09 /* AlamoFireExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757709C1B98A215005FEA09 /* AlamoFireExtension.swift */; };
+		775770A11B98A215005FEA09 /* OpenPanelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757709E1B98A215005FEA09 /* OpenPanelExtension.swift */; };
+		775770A31B98A84F005FEA09 /* Ono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775770A21B98A84F005FEA09 /* Ono.framework */; };
+		775770A41B98A84F005FEA09 /* Ono.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 775770A21B98A84F005FEA09 /* Ono.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		775770A71B98A855005FEA09 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775770A61B98A855005FEA09 /* Alamofire.framework */; };
+		775770A81B98A855005FEA09 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 775770A61B98A855005FEA09 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		775770AD1B99043F005FEA09 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775770AC1B99043F005FEA09 /* ArrayExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7757708D1B98A164005FEA09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775770721B98A164005FEA09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775770791B98A164005FEA09;
+			remoteInfo = ElixirSipsRss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		775770A51B98A84F005FEA09 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				775770A41B98A84F005FEA09 /* Ono.framework in Embed Frameworks */,
+				775770A81B98A855005FEA09 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7757707A1B98A164005FEA09 /* ElixirSipsRss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElixirSipsRss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7757707E1B98A164005FEA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7757707F1B98A164005FEA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775770811B98A164005FEA09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		775770831B98A164005FEA09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		775770861B98A164005FEA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7757708C1B98A164005FEA09 /* ElixirSipsRssTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElixirSipsRssTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775770911B98A164005FEA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775770921B98A164005FEA09 /* ElixirSipsRssTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirSipsRssTests.swift; sourceTree = "<group>"; };
+		7757709C1B98A215005FEA09 /* AlamoFireExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoFireExtension.swift; sourceTree = "<group>"; };
+		7757709E1B98A215005FEA09 /* OpenPanelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenPanelExtension.swift; sourceTree = "<group>"; };
+		775770A21B98A84F005FEA09 /* Ono.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ono.framework; path = Carthage/Build/Mac/Ono.framework; sourceTree = "<group>"; };
+		775770A61B98A855005FEA09 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		775770AC1B99043F005FEA09 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775770771B98A164005FEA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775770A31B98A84F005FEA09 /* Ono.framework in Frameworks */,
+				775770A71B98A855005FEA09 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775770891B98A164005FEA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775770711B98A164005FEA09 = {
+			isa = PBXGroup;
+			children = (
+				775770A61B98A855005FEA09 /* Alamofire.framework */,
+				775770A21B98A84F005FEA09 /* Ono.framework */,
+				7757707C1B98A164005FEA09 /* ElixirSipsRss */,
+				7757708F1B98A164005FEA09 /* ElixirSipsRssTests */,
+				7757707B1B98A164005FEA09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7757707B1B98A164005FEA09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7757707A1B98A164005FEA09 /* ElixirSipsRss.app */,
+				7757708C1B98A164005FEA09 /* ElixirSipsRssTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7757707C1B98A164005FEA09 /* ElixirSipsRss */ = {
+			isa = PBXGroup;
+			children = (
+				7757707F1B98A164005FEA09 /* AppDelegate.swift */,
+				775770811B98A164005FEA09 /* ViewController.swift */,
+				7757709C1B98A215005FEA09 /* AlamoFireExtension.swift */,
+				7757709E1B98A215005FEA09 /* OpenPanelExtension.swift */,
+				775770831B98A164005FEA09 /* Images.xcassets */,
+				775770851B98A164005FEA09 /* Main.storyboard */,
+				7757707D1B98A164005FEA09 /* Supporting Files */,
+				775770AC1B99043F005FEA09 /* ArrayExtension.swift */,
+			);
+			path = ElixirSipsRss;
+			sourceTree = "<group>";
+		};
+		7757707D1B98A164005FEA09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7757707E1B98A164005FEA09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7757708F1B98A164005FEA09 /* ElixirSipsRssTests */ = {
+			isa = PBXGroup;
+			children = (
+				775770921B98A164005FEA09 /* ElixirSipsRssTests.swift */,
+				775770901B98A164005FEA09 /* Supporting Files */,
+			);
+			path = ElixirSipsRssTests;
+			sourceTree = "<group>";
+		};
+		775770901B98A164005FEA09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775770911B98A164005FEA09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775770791B98A164005FEA09 /* ElixirSipsRss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775770961B98A164005FEA09 /* Build configuration list for PBXNativeTarget "ElixirSipsRss" */;
+			buildPhases = (
+				775770761B98A164005FEA09 /* Sources */,
+				775770771B98A164005FEA09 /* Frameworks */,
+				775770781B98A164005FEA09 /* Resources */,
+				775770A51B98A84F005FEA09 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElixirSipsRss;
+			productName = ElixirSipsRss;
+			productReference = 7757707A1B98A164005FEA09 /* ElixirSipsRss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7757708B1B98A164005FEA09 /* ElixirSipsRssTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775770991B98A164005FEA09 /* Build configuration list for PBXNativeTarget "ElixirSipsRssTests" */;
+			buildPhases = (
+				775770881B98A164005FEA09 /* Sources */,
+				775770891B98A164005FEA09 /* Frameworks */,
+				7757708A1B98A164005FEA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7757708E1B98A164005FEA09 /* PBXTargetDependency */,
+			);
+			name = ElixirSipsRssTests;
+			productName = ElixirSipsRssTests;
+			productReference = 7757708C1B98A164005FEA09 /* ElixirSipsRssTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775770721B98A164005FEA09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = rjsamson;
+				TargetAttributes = {
+					775770791B98A164005FEA09 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7757708B1B98A164005FEA09 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 775770791B98A164005FEA09;
+					};
+				};
+			};
+			buildConfigurationList = 775770751B98A164005FEA09 /* Build configuration list for PBXProject "ElixirSipsRss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775770711B98A164005FEA09;
+			productRefGroup = 7757707B1B98A164005FEA09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775770791B98A164005FEA09 /* ElixirSipsRss */,
+				7757708B1B98A164005FEA09 /* ElixirSipsRssTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775770781B98A164005FEA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775770841B98A164005FEA09 /* Images.xcassets in Resources */,
+				775770871B98A164005FEA09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7757708A1B98A164005FEA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775770761B98A164005FEA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775770AD1B99043F005FEA09 /* ArrayExtension.swift in Sources */,
+				775770A11B98A215005FEA09 /* OpenPanelExtension.swift in Sources */,
+				775770821B98A164005FEA09 /* ViewController.swift in Sources */,
+				775770801B98A164005FEA09 /* AppDelegate.swift in Sources */,
+				7757709F1B98A215005FEA09 /* AlamoFireExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775770881B98A164005FEA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775770931B98A164005FEA09 /* ElixirSipsRssTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7757708E1B98A164005FEA09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775770791B98A164005FEA09 /* ElixirSipsRss */;
+			targetProxy = 7757708D1B98A164005FEA09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775770851B98A164005FEA09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775770861B98A164005FEA09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775770941B98A164005FEA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775770951B98A164005FEA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		775770971B98A164005FEA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = ElixirSipsRss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		775770981B98A164005FEA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = ElixirSipsRss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7757709A1B98A164005FEA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElixirSipsRssTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElixirSipsRss.app/Contents/MacOS/ElixirSipsRss";
+			};
+			name = Debug;
+		};
+		7757709B1B98A164005FEA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElixirSipsRssTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElixirSipsRss.app/Contents/MacOS/ElixirSipsRss";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775770751B98A164005FEA09 /* Build configuration list for PBXProject "ElixirSipsRss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775770941B98A164005FEA09 /* Debug */,
+				775770951B98A164005FEA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775770961B98A164005FEA09 /* Build configuration list for PBXNativeTarget "ElixirSipsRss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775770971B98A164005FEA09 /* Debug */,
+				775770981B98A164005FEA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		775770991B98A164005FEA09 /* Build configuration list for PBXNativeTarget "ElixirSipsRssTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7757709A1B98A164005FEA09 /* Debug */,
+				7757709B1B98A164005FEA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775770721B98A164005FEA09 /* Project object */;
+}
